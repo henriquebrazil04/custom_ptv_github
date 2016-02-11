@@ -1,0 +1,25 @@
+
+body {
+
+}
+
+#cabecalho_principal {
+	background-color: #F1F6F8;
+}
+
+
+
+
+#menu_principal {
+	display: block;
+	background-color: #00497C;
+}
+
+#menu_principal li {
+	display: inline;
+	line-height: 20px;
+}
+
+#menu_principal a {
+	color: white;		
+}

@@ -1,0 +1,1151 @@
+#destino_geral {
+	width:960px;	
+}
+
+#destino_geral * {
+	margin:0;
+	padding:0;
+}
+
+#destino_geral strong {
+	font-size:100%;
+}
+
+#destino_geral #topico_foto_topo {
+	height:417px;
+	position:relative;
+	clear: both;
+}
+
+#destino_geral #topico_foto_topo #cap_titulo {
+	position:absolute;
+	top:20px;
+	left:20px;
+	background: url(/media/4723581/bg_azul_escuro.png);
+	color:#fff;
+	padding:20px 20px 14px 20px;
+}
+
+#destino_geral #topico_foto_topo #cap_titulo h1 {
+	font: 32px/32px 'Oswald', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+#destino_geral #topico_foto_topo #cap_titulo span {
+	font: 22px 'Oswald', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote {
+	position:absolute;
+	bottom:70px;
+	right:20px;
+	background: url(/media/4723581/bg_azul_escuro.png);
+	padding: 16px 20px 22px 20px;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p {
+	padding:2px 0;
+	color:#fff;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p.parcela {
+	float:left;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p.preco {
+	float:left;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p.centavos {
+	float:left;
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p a {
+	font:bold 12px/30px Arial, Helvetica, sans-serif!important;
+	float: none;
+	display:block;
+	clear:both;
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#fff;
+	box-shadow: 3px 3px 0 0 #4e9a0f;
+	border-radius:3px;
+	text-align:center;
+	position:relative;
+	
+	background: #6cc722; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6cc722 0%, #5ab112 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cc722), color-stop(100%,#5ab112)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6cc722 0%,#5ab112 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6cc722 0%,#5ab112 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6cc722 0%,#5ab112 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6cc722 0%,#5ab112 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6cc722', endColorstr='#5ab112',GradientType=0 ); /* IE6-9 */
+}
+
+#destino_geral #topico_foto_topo #cap_pacote p a:active {
+	font:bold 12px/30px Arial, Helvetica, sans-serif!important;
+	float: none;
+	display:block;
+	clear:both;
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#fff;
+	box-shadow: 1px 1px 0 0 #4e9a0f;
+	border-radius:3px;
+	text-align:center;
+	position:relative;
+	top:2px;
+	left:2px;
+	
+	background: #5ab112; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5ab112 0%, #6cc722 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ab112), color-stop(100%,#6cc722)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5ab112 0%,#6cc722 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5ab112 0%,#6cc722 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5ab112 0%,#6cc722 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5ab112 0%,#6cc722 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ab112', endColorstr='#6cc722',GradientType=0 ); /* IE6-9 */
+
+}
+
+#destino_geral #topico_foto_topo #menu_destinos {
+	width:960px;
+	display:inline-block;
+	position:absolute;
+	bottom:0;
+	background: url(/media/4723581/bg_azul_escuro.png);
+	text-align: center;
+}
+
+#destino_geral #topico_foto_topo #menu_destinos.fixo {
+	position: fixed;
+	bottom: auto;
+	top:0;
+	left: 50%;
+	z-index:1000;
+	margin-left: -480px;
+}
+
+#destino_geral #topico_foto_topo ul li {
+	display:inline-block;
+	position:relative;
+}
+
+#destino_geral #topico_foto_topo ul li a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	line-height:50px;	
+	color:#ccc;
+	text-decoration:none;
+	padding: 0 18px;
+	padding: 0 18px\9; 
+	display:inline-block;
+	text-transform: uppercase;
+}
+
+#destino_geral #topico_foto_topo ul li a:hover, #destino_geral #topico_foto_topo ul li a.ativo {
+	color:#fff;
+}
+
+#destino_geral #topico_foto_topo ul li p {
+	width:100%;
+	position:absolute;
+	display:none;
+	text-align:center;
+	margin-top: -8px;
+}
+
+#destino_geral #topico_foto_topo ul li p.ativo {
+	display:block;
+}
+
+#destino_geral #topico_foto_topo .credito_foto {
+	position:absolute;
+    top:0;
+    right:0;
+    
+	font: 10px Arial, Helvetica, sans-serif;  
+	padding: 4px;  
+	color: #666;  display: inline-block;  text-indent: 4px;
+	background: #f1f1f1;
+}
+
+#destino_geral #topico_galeria_fotos, #destino_geral #topico_diferenciais, #destino_geral #topico_textolegal, #destino_geral #topico_promocoes {
+	width: 100%;
+	padding-bottom:20px;
+	border-top: 1px dashed #b2b2b2;
+	display: inline-block;
+	clear: both;
+}
+
+#destino_geral p {
+	font: 14px/20px Arial, Helvetica, sans-serif;
+	color:#666;
+	margin: 10px 0;
+}
+
+#destino_geral h2, #destino_geral h3 {
+	color:#003366;
+	font-size: 28px;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	margin: 20px 0 5px 0;
+	font-weight: 400;
+}
+
+#destino_geral a[name] {
+	padding-top: 40px;
+}
+
+#destino_geral #menu_destinos #diferenciais {
+	display:none;
+}
+
+#destino_geral a {
+	color:#0089d8;
+	text-decoration:none;
+}
+
+#destino_geral #topico_sobre #foto_sobre {
+	width: 420px;
+	height: 230px;
+	border:1px solid #d7d7d7;
+	float:right;
+	margin: 10px 0 0 50px;
+	position:relative;
+}
+
+#destino_geral small.caption_foto {
+	width:100%;
+	background: #f1f1f1;
+	position:absolute;
+	bottom:0;
+	font:10px Arial, Helvetica, sans-serif;
+	padding: 4px 0 5px 0px;
+	color: #666;
+	display: block;	
+	text-indent: 4px;
+}
+
+#destino_geral #topico_sobre #complementar {
+	margin-top: 20px;    
+	/*min-height: 112px;*/
+}
+
+#destino_geral #topico_sobre h5.quandoir, #destino_geral #topico_sobre h5.curiosidades {
+	font: bold 14px/22px Arial, Helvetica, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	padding-left:27px;
+	margin-top:20px;
+}
+
+#destino_geral #topico_sobre h5.quandoir {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -25px -304px;
+}
+
+#destino_geral #topico_sobre h5.curiosidades {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -25px -355px;
+}
+
+#destino_geral #topico_sobre .descricao {
+	font: 14px/20px Arial, Helvetica, sans-serif!important;
+	color:#666;
+	border-bottom:1px dotted #999;
+	border-left:1px dotted #999;
+	padding: 0px 0 0px 15px;
+	margin: 7px;
+	display: table;
+}
+
+#destino_geral #topico_sobre .descricao p {
+	font: 14px/19px Arial, Helvetica, sans-serif!important;	
+	margin-top: 0px;
+}
+
+#destino_geral #topico_sobre .veja_mais_informacao {
+	border:1px solid #cce6f8;
+	border-radius:4px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -11px -395px #cce6f8;
+	margin: 20px 0 15px 0;
+	display: inline-block;
+	width: 960px;
+}
+
+#destino_geral #topico_sobre .veja_mais_informacao:hover {
+	cursor:pointer;
+}
+
+#destino_geral #topico_sobre .veja_mais_informacao span {
+	font:14px/50px Arial, Helvetica, sans-serif;
+	color:#666;
+	display:block;
+	clear:both;
+	background:#eef5fb;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-left: 50px;
+	padding-left: 10px;
+}
+
+#destino_geral #topico_galeria_fotos {
+	position:relative;	
+}
+
+#destino_geral #topico_galeria_fotos p {
+	width:960px;	
+}
+
+#destino_geral #topico_galeria_fotos #galeria_fotos {
+	width: 832px;
+	box-shadow: 0px 0px 4px #ccc;
+	padding: 10px 10px 34px 10px;
+	border-radius: 4px;		
+	position:relative;	
+	left:50%;
+	margin-left:-430px;
+}
+
+#destino_geral #topico_galeria_fotos #galeria_fotos #barra_thumbs{
+	padding: 10px 0 9px 0;
+	background:#3b3b3b;
+	clear:both;
+}
+
+#destino_geral #topico_galeria_fotos ul.bxslider2 {
+	display:block;
+	position:relative;
+}
+
+#destino_geral #topico_galeria_fotos ul.bxslider2 li {
+	float:left;
+	list-style: none;
+	margin:0;
+	padding:0 4px;
+}
+
+#destino_geral #topico_galeria_fotos ul li a img {
+	width:34px;
+	height:28px;
+	border: 1px solid #3b3b3b;
+	position:relative;
+}
+
+#destino_geral #topico_galeria_fotos ul li a img.ativo {
+	border: 1px solid #eccd00;
+}
+
+#destino_geral #topico_galeria_fotos ul li a img:hover:not(.ativo) {
+  border: 1px solid #ccc;
+}
+
+#destino_geral #topico_galeria_fotos ul li a img:active {
+	border: 1px solid #eccd00;
+}
+
+#destino_geral #topico_galeria_fotos #barra_thumbs {
+	border-top:1px solid #808080;
+	border-right:1px solid #808080;
+	border-left:1px solid #808080;
+}
+
+#destino_geral #topico_galeria_fotos #thumbs {
+	height:30px;
+	overflow:hidden;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2, #destino_geral #topico_galeria_fotos  a.slider-next2  {
+	width:20px;
+	height: 28px;
+	display:block;
+	float:right;
+	margin:0;
+	background:green;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2 {
+	float:left;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2 {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -98px -176px;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2:hover {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -8px -176px;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -21px -460px;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-next2 {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat  -141px -176px;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-next2 {
+	float:right;
+}
+
+
+
+#destino_geral #topico_galeria_fotos  a.slider-prev2.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -99px -177px;
+
+	cursor:default;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-next2:hover {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -51px -176px;
+	cursor:default;
+}
+
+#destino_geral #topico_galeria_fotos  a.slider-next2.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -144px -176px;
+	cursor:default;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes {
+	width:830px;
+    
+	height: 473px;
+	position:relative;
+	display:block;
+	border-top: 1px solid #808080;
+	border-right: 1px solid #d7d7d7;
+	border-left: 1px solid #d7d7d7;
+	border-bottom: none;
+	background: rgb(240,240,240);
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes img {
+	/* width:830px; */
+	/* height:474px; */
+	position:absolute;
+	top: 0;
+	left: 0;
+	/* margin-top: 0; */
+	/* margin-left: 0; */
+    z-index: 1;
+    /*visibility:hidden;*/
+    display:none;
+
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes .box_credito {
+	position:absolute;
+    top:50%;
+    left:50%;
+    z-index:2;    
+}
+
+#destino_geral #topico_galeria_fotos div.credito {
+	font: 12px Arial, Helvetica, sans-serif;  
+	padding: 4px;  
+    
+	color: #666;  
+    
+	display: block;  
+    text-indent: 4px;
+	
+	background: #f1f1f1;
+	width: 822px;
+	position: absolute;
+	top: 534px;
+	left: 10px;
+	z-index: 1;
+	border-bottom: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	border-left: 1px solid #d7d7d7;
+	display: none;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes a#foto_ant, #destino_geral #topico_galeria_fotos #fotos_grandes a#foto_pos {
+	width:50px;
+	height:60px;
+	position:absolute;
+	top:207px;
+	z-index:2;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes a#foto_ant {
+	left:10px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -14px -108px;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes a#foto_ant:hover {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -14px -25px;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes a#foto_pos {
+	right:10px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -121px -108px;
+}
+
+#destino_geral #topico_galeria_fotos #fotos_grandes a#foto_pos:hover {
+	right:10px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -121px -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#destino_geral .topico_colunas {
+	margin-top: 20px;
+	clear: both;
+	border-top: 1px dashed #b2b2b2;
+}
+
+#destino_geral .topico_colunas h4 {
+	font:bold 21px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin: -3px 0 -5px 0;
+}
+
+#destino_geral .topico_colunas .uma_coluna, #destino_geral .topico_colunas .duas_colunas {
+	width: 100%;
+	display: inline-block;
+	border-top: 1px dotted #ccc;    
+	padding-top: 20px;
+	padding: 20px 0 15px 0\9;
+	margin: 0px 0 10px 0;
+}
+
+.uma_coluna h3 {
+	margin-top:0!important;
+}
+
+#destino_geral .topico_colunas .uma_coluna:last-child, #destino_geral .topico_colunas .duas_colunas:last-child {
+	padding: 20px 0 0px 0;
+	/* border-bottom:1px dashed #b2b2b2; */
+	margin: 0px 0 0px 0;
+	width: 960px;
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto, #destino_geral .topico_colunas .duas_colunas .foto {
+	border:1px solid #d7d7d7;
+	float:left;
+	margin: 0px 10px 0px 0;
+	position: relative;
+    cursor:pointer;
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto {
+	width:348px;
+	height: 210px;
+	margin-bottom: 10px;
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto.foto_menor {
+	width: 263px;
+	height: 159px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+	cursor: default;
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto.sem_credito_txt {
+	height: 190px;	
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto.sem_credito_txt.foto_menor {
+	height: 144px;	
+}
+
+#destino_geral .topico_colunas .foto {
+	width:148px;
+	height:81px;
+	float: left;
+	margin: 0 10px 0px 0;
+	position: relative;
+}
+
+#destino_geral .topico_colunas .coluna1 {
+	width: 459px;    
+	height:81px;
+	float:left;
+	display: inline-table;
+	border-top: 1px dotted #ccc;
+    
+	/* border-right: 1px dotted #ccc; */
+	margin: 0px 0 10px 0;
+	padding: 20px 20px 0 0;
+	background: url(/media/4723579/linha_pont_vert.png) no-repeat 478px 20px;
+}
+
+#destino_geral .topico_colunas .coluna1 .foto {
+	cursor:pointer;
+}
+
+#destino_geral .topico_colunas .coluna1 .foto .lupa {
+	width: 20px;
+	height: 20px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -723px #002748;
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto .lupa {
+	width: 20px;
+	height: 20px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -723px #002748;
+	position: absolute;
+	bottom: 22px;
+	right: 3px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#destino_geral .topico_colunas .uma_coluna .foto .lupa.sem_credito {
+	width: 20px;
+	height: 20px;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -723px #002748;
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#destino_geral .topico_colunas .coluna1 .foto img {
+	width:148px;
+	height:81px;
+}
+
+#destino_geral .topico_colunas .coluna2 {
+	background:url(/media/4723579/linha_pont_vert.png) no-repeat;
+}
+
+#destino_geral .topico_colunas .coluna2 .foto{
+	margin-left:20px;
+}
+
+#destino_geral #topico_diferenciais {
+	margin: 20px 0 0px 0!important;
+	width: 960px;
+}
+
+#destino_geral #topico_diferenciais ul {
+	list-style:none;
+	padding-top: 10px;
+}
+
+#destino_geral #topico_diferenciais ul li {
+	font: 14px Arial, Helvetica, sans-serif;
+	color:#666;
+	height: 65px;
+	width: 50%;
+	float: left;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -24px -222px;
+	margin: 0;
+	padding: 0;
+}
+
+#destino_geral #topico_diferenciais ul li p {
+	margin: 0 0 0 45px;
+	line-height:18px;
+	padding-right: 20px;
+}
+
+#destino_geral #topico_diferenciais ul li strong {
+	display:block;
+	color:#333;
+}
+
+#destino_geral #topico_textolegal {
+	clear:both;
+	margin: -10px 0 0px 0;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+#destino_geral #topico_textolegal p {
+	font:12px/20px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+#destino_geral #topico_textolegal_copyright {
+	clear:both;
+	margin: -10px 0 0px 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-top: 1px dashed #b2b2b2;
+}
+
+#destino_geral #topico_textolegal_copyright p {
+	font:12px/20px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+#destino_geral #topico_vejatambem {
+	clear:both;
+	margin: 10px 0 0 0;
+	border-top: 1px dashed #b2b2b2;
+	padding-top: 30px;
+}
+
+#destino_geral #topico_vejatambem h4 {
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-bottom: 20px;
+}
+
+#destino_geral #topico_vejatambem p {
+	margin:0;    
+}
+
+#destino_geral #topico_vejatambem p a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+#destino_geral #topico_vejatambem ul li {
+	float:left;
+	list-style: none;
+	padding:0 5px;
+}
+
+#destino_geral #topico_vejatambem ul li img {
+	width:148px;
+	height:81px;
+	border: 1px solid #d7d7d7;
+}
+
+#destino_geral  #topico_vejatambem #slider_vejatambem {
+	width:960px;
+	height: 105px;
+	overflow:hidden;
+	display:block;
+}
+
+#destino_geral  #topico_vejatambem .bxslider {
+	width:1000%;
+}
+
+#destino_geral #topico_vejatambem .slider-prev a, #destino_geral #topico_vejatambem .slider-next a {
+	width: 24px;
+	height: 24px;
+	display:block;
+	float:right;
+	margin:0 5px;
+	background:green;
+}
+
+#destino_geral #topico_vejatambem .slider-prev a {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -636px;
+}
+
+#destino_geral #topico_vejatambem .slider-prev a.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -21px -460px;
+}
+
+#destino_geral #topico_vejatambem .slider-next a {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -688px;
+}
+
+#destino_geral #topico_vejatambem .slider-prev a.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -111px -460px;
+	cursor:default;
+}
+
+#destino_geral #topico_vejatambem .slider-next a.inativo {
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -148px -460px;
+	cursor:default;
+}
+
+/* LIGHTBOX */
+
+#destino_geral #lb_infos_importantes {
+	width:706px;
+	display:none;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#666;
+	background:#fff;
+    margin-left:-370px;
+}
+
+#destino_geral #lb_infos_importantes h4 {
+	font:bold 18px Arial, Helvetica, sans-serif;
+	color:#666;
+	float:left;
+	padding: 5px 0;
+}
+
+#destino_geral #lb_infos_importantes .lk_imprimir {
+	margin-left: 10px;
+	height: 12px;
+	line-height: 34px;
+	font-weight: normal;
+}
+
+#destino_geral #lb_infos_importantes table {
+	width:100%;
+	clear:both;	
+    border-collapse:collapse;
+}
+
+#destino_geral #lb_infos_importantes table td, #destino_geral #lb_infos_importantes table th {
+	line-height:30px;	    
+}
+
+#destino_geral #lb_infos_importantes table td {
+	padding-left:10px;
+	font-weight:normal;
+}
+
+ #destino_geral #lb_infos_importantes table th {
+    text-align:right;
+    padding-right:10px;
+    border-right:1px solid #e9e9e9;    
+    width: 145px;
+}
+
+#destino_geral #lb_infos_importantes table tr:nth-child(odd) {
+   background-color: #f5f5f5;
+}
+
+#destino_geral #lb_infos_importantes table td p {
+	padding:0;
+    margin:0;
+}
+
+#destino_geral #lb_infos_importantes table td strong {
+	color: #666;
+}
+
+#destino_geral .lightbox {
+	width:867px;
+	padding:7px 13px;
+	display:inline-block;
+	border:4px solid #0089d8;
+	border-radius:4px;
+	background:#ededed;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-left: -450px;
+	z-index: 3;
+	display:none;
+}
+
+#destino_geral .lightbox h4 {
+	font:bold 21px/21px Arial, Helvetica, sans-serif;
+	color:#0089d8;
+	margin-bottom: 8px;
+}
+
+#destino_geral .lightbox div.lb_conteudo {
+	height:222px;
+	background:#fff;
+	border:1px solid #cdcdcd;
+	padding: 25px 0 15px 0;
+	position:relative;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+#destino_geral .lightbox div.lb_conteudo .area {
+	width: 2000%;
+	display:inline-block;
+}
+
+#destino_geral .lightbox div.lb_conteudo .lb_slider {
+	float:left;
+	width: 775px;
+	margin: 0 45px;
+}
+
+#destino_geral .lightbox div.lb_conteudo .lb_slider.sem_credito_txt {
+	margin-top: 10px;
+}
+
+#destino_geral .lightbox .seta {
+	width: 45px;
+	height: 260px;
+	display:block;
+	position:absolute;
+	top: 38px;
+	z-index:2;
+}
+
+#destino_geral .lightbox .seta.lb_prev {
+	left: 14px;
+	background: url(/media/4723583/destinos_sprite_setinhas.png) no-repeat -99px 102px #fff;
+}
+
+#destino_geral .lightbox .seta.lb_prev:hover {
+	background: url(/media/4723583/destinos_sprite_setinhas.png) no-repeat -5px 102px #fff;
+}
+
+#destino_geral .lightbox .seta.lb_next {
+	right: 14px;
+	background: url(/media/4723583/destinos_sprite_setinhas.png) no-repeat -150px 102px #fff;
+}
+
+#destino_geral .lightbox .seta.lb_next:hover {
+	background: url(/media/4723583/destinos_sprite_setinhas.png) no-repeat -56px 102px #fff;
+}
+
+#destino_geral .lightbox h5 {
+	font:bold 21px/18px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-bottom: 10px;
+}
+
+#destino_geral .lightbox p {
+	font:12px/18px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+#destino_geral .lightbox p strong {
+	color:#666;
+}
+
+#destino_geral .lightbox p small {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#666;
+}
+
+#destino_geral .lightbox .lb_foto {
+	width:348px;
+	height: 208px;
+	border:1px solid #d7d7d7;
+	float:left;
+	margin:0 10px 10px 0;
+	position:relative;
+}
+
+#destino_geral .lightbox .lb_foto.sem_credito_txt {
+	height: 190px;	
+}
+
+#destino_geral .lightbox .bt_fechar {
+	width:23px;
+	height:23px;	
+	float:right;
+	background: url(/media/4723582/destinos_sprite.png) no-repeat -22px -582px;	
+}
+
+#destino_geral #blackoverlay {
+	display:none;
+}
+
+#destino_geral #banner_promocoes {
+	margin:15px 0 10px 0;
+	height: 265px;
+}
+
+/*estino_geral #banner_promocoes img {
+	margin:0 28px 0 0;
+}
+
+#destino_geral #banner_promocoes img.ultimo {
+	margin:0;
+}*/
+
+#destino_geral #banner_promocoes .box-promo {
+	margin:0 28px 0 0;
+}
+
+#destino_geral #banner_promocoes .box-promo.ultimo {
+	margin:0;
+}
+
+#destino_geral #banner_promocoes .box-hotel, #destino_geral #banner_promocoes .box-aereo, #destino_geral #banner_promocoes .box-pacote {
+	width: 300px;
+    float:left;	
+	margin: 0 30px 0 0;
+	position:relative;
+}
+
+	#destino_geral #banner_promocoes div a {
+	
+		display: flex;
+	}
+
+		#destino_geral #banner_promocoes div a img {
+			border-top:1px solid #cdcdcd;		
+			border-right:1px solid #cdcdcd;		
+			border-left:1px solid #cdcdcd;		
+		}
+
+	#destino_geral #banner_promocoes .box-hotel .promo-seta, #destino_geral #banner_promocoes .box-aereo .promo-seta,#destino_geral #banner_promocoes .box-pacote .promo-seta   {
+		width: 0;
+		height: 0;
+		position: absolute;
+		bottom: 108px;
+		border-style: solid;
+		border-width: 10px 0 10px 10px;
+		top: 160px;
+		left: 185px;
+	}
+
+	#destino_geral #banner_promocoes .box-hotel .promo-seta {
+		border-color: transparent transparent transparent #235997;		
+	}
+
+	#destino_geral #banner_promocoes .box-aereo .promo-seta {
+		border-color: transparent transparent transparent #AE3159;		
+	}
+
+	#destino_geral #banner_promocoes .box-pacote .promo-seta {
+		border-color: transparent transparent transparent #EF7538;		
+	}
+
+
+	#destino_geral #banner_promocoes div.box-hotel .promo-descricao { 
+		background: #235997;
+		color: #99dafc;
+	}
+
+	#destino_geral #banner_promocoes div.box-aereo .promo-descricao { 
+		background: #ae3159;
+		color: #ffd1d7;
+	}
+
+	#destino_geral #banner_promocoes div.box-pacote .promo-descricao { 
+		margin:0;
+		background:#ef7538;
+		color:#fff9ac;
+	}
+
+	#destino_geral #banner_promocoes div.box-pacote { 
+		margin:0;		
+	}
+
+	#destino_geral #banner_promocoes div .promo-descricao { 
+		font-family:'Oswald', Arial, Helvetica, sans-serif;
+		font-size:16px;		
+		line-height: 20px;	
+		width: 155px;
+		height: 83px;
+	
+		float: left;
+		padding: 15px;
+		font-weight: 400;
+}
+
+		#destino_geral #banner_promocoes div .promo-descricao span { 
+			display:block;
+			font-size: 22px;	
+		
+			color: #fff;
+			font-weight: 400;
+}
+
+		#destino_geral #banner_promocoes div .promo-descricao small { 
+			display:block;
+			font-family:Arial, Helvetica, sans-serif;	
+			font-size: 9px;
+		
+			color: #fff;
+			margin-top: 12px;
+}
+
+	#destino_geral #banner_promocoes div .promo-preco { 	
+		height: 113px;
+		display: block;
+		font-family: 'Oswald', Arial, Helvetica, sans-serif;
+		font-size: 11px;		
+		text-align: center;
+	}
+
+		#destino_geral #banner_promocoes div .promo-preco strong { 	
+			font-size:26px;
+			font-weight:normal;
+			margin-top:5px;
+		}
+
+		#destino_geral #banner_promocoes div .promo-preco span { 
+			padding-top: 18px;
+			display:block;		
+		}
+
+		#destino_geral #banner_promocoes div .promo-preco strong { 
+			display:none;				
+			margin-bottom: 5px;
+}
+
+		#destino_geral #banner_promocoes div .promo-preco a { 
+			display: inline-block;	
+			padding: 8px 12px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			font-weight: bold;
+			background: #5ab112;
+			padding: 8px 12px;
+			color: #fff;
+			font-weight: bold;
+			border-radius: 4px;
+			box-shadow: 3px 3px 0 0 #4e9a0f;
+		}
+
+		#destino_geral #banner_promocoes div .promo-preco a:active { 
+			box-shadow: 1px 1px 0 0 #4e9a0f;
+			margin-top: 3px;
+			margin-left: 5px;
+		}
+
+	#destino_geral #banner_promocoes div.box-hotel .promo-preco { 	
+		color:#1b4c84;
+		background:#e4e9ef;
+	}
+
+	#destino_geral #banner_promocoes div.box-aereo .promo-preco { 	
+		color:#841538;
+		background:#f2e0e6;
+	}
+
+	#destino_geral #banner_promocoes div.box-pacote .promo-preco { 	
+		color:#963f13;
+		background:#f9e5dc;
+	}
+
+
+/*#overlay {
+	height: 4903px;
+	opacity: 0.65;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 2;
+	display: block;
+	background: black;
+}*/
+
+/* PRINT */
+
+@media print {
+
+    /*#mf_div, #overlay, #modal-opacity, #continueForm, .companyInfoHolder, #imgLomadee, #modal-content, #comprarPeloTelefonePop, #fb-root {
+        visibility:hidden!important;
+        display:none!important;
+    }
+
+      #lb_infos_importantes {
+        visibility:visible!important;
+        display:block!important;
+        position: absolute;
+        top:0;
+        left:0;                                     
+      }*/                                  
+
+    }
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
